@@ -1,3 +1,5 @@
+/* top bar: 838783 */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,14 +36,13 @@ body {
 
 .navigation {
   width: 92%;
-  background-image: 
-          linear-gradient(
-          180deg,
-          #818581 0%,
-          #7c807c 20%,
-          #727272 50%,
-          #5f5f5f 50%,
-          #6d6d6d 95%
+  background-image: linear-gradient(
+    180deg,
+    #818581 0%,
+    #7c807c 20%,
+    #727272 50%,
+    #5f5f5f 50%,
+    #6d6d6d 95%
   );
   height: 4rem;
   position: absolute;
@@ -100,8 +101,7 @@ body {
   font-family: inherit;
   display: inline-block;
   border-radius: 1rem;
-  background-image: 
-    linear-gradient(
+  background-image: linear-gradient(
     180deg,
     #818581 0%,
     #7c807c 20%,

@@ -1,10 +1,11 @@
-# 2014 APPLE'S WEBSITE WEBPAGE CLONE
+# APPLE'S WEBSITE WEBPAGE CLONE (2014)
 
 The goal of this project is to make a clone of an old version of the Apple website webpage (2014).
 
 > This project helps me master the concept of using images as a background and adding gradints to elements.
 > I learned to sized and position the page using correct semantic HTML elements appropriately.
 > Correctly setting up navigation bar.
+> Played around with media queries to work a bit on the site responsiveness even though the origin isn't.
 
 ![screenshot](./images/screenshot.jpg)
 
@@ -12,7 +13,7 @@ This project covers the following HTML and CSS3 concepts
 
 - Using images as a background
 - Adding gradients to elements
-- Floats and positioning
+- Relative and absolute positioning
 - Flex and Grid
 
 ## Built With
@@ -38,7 +39,7 @@ $ cd <folder>
 $ git clone https://github.com/acushlakoncept/old_version_apple.git
 ```
 
-## Authors
+## Author
 
 **Uduak Essien**
 

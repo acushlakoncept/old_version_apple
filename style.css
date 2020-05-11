@@ -128,7 +128,7 @@ body {
 }
 
 .hero__text {
-  width: 85%;
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -233,5 +233,8 @@ body {
   }
   .grid-image {
     grid-template-columns: 1fr;
+  }
+  .footer {
+    font-size: 1rem;
   }
 }

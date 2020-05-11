@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "old_version_apple"
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}

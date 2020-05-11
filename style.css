@@ -152,10 +152,30 @@ body {
 .grid-image {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
 }
 
 .grid-image__item {
   width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.grid-image-1 {
+  background-image: url(images/iphone_5c.jpg);
+}
+
+.grid-image-2 {
+  background-image: url(images/iphone_5s.jpg);
+}
+
+.grid-image-3 {
+  background-image: url(images/mac_birthday.jpg);
+}
+
+.grid-image-4 {
+  background-image: url(images/supplier.jpg);
 }
 
 .footer {
@@ -221,6 +241,9 @@ body {
   .grid-image {
     grid-template-columns: 1fr 1fr;
   }
+  .grid-image__item {
+    height: 28rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -230,6 +253,10 @@ body {
 
   .grid-image {
     grid-template-columns: 1fr;
+  }
+
+  .grid-image__item {
+    height: 48rem;
   }
 
   .footer {

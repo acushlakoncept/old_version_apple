@@ -37,7 +37,8 @@ body {
 .navigation {
   width: 92%;
   background-image: 
-    linear-gradient(180deg,
+    linear-gradient(
+    180deg,
     #818581 0%,
     #7c807c 20%,
     #727272 50%,
@@ -102,7 +103,8 @@ body {
   display: inline-block;
   border-radius: 1rem;
   background-image: 
-    linear-gradient(180deg,
+    linear-gradient(
+    180deg,
     #818581 0%,
     #7c807c 20%,
     #727272 50%,

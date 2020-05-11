@@ -17,11 +17,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
   box-sizing: border-box;
+  padding: 1rem 0;
 }
 
 .main-body {
   max-width: 85%;
   margin: 0 auto;
+  border: 2px solid #888;
 }
 
 .hero {
@@ -158,4 +160,36 @@ body {
 
 .grid-image__item {
   width: 100%;
+}
+
+.footer {
+  height: 8rem;
+  width: 100%;
+  padding: 3rem;
+  font-size: 1.1rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.footer__quicklinks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.footer__quicklinks--list {
+  display: inline-flex;
+}
+
+.footer__links {
+  margin-left: 1.5rem;
+}
+
+.footer__quicklinks--list li:not(:last-child) {
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.link-color {
+  color: #0088cc;
 }

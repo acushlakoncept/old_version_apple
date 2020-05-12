@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+.main-body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 65vh;
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.navigation {
+  width: 75%;
+  background-image:
+    linear-gradient(
+      180deg,
+      #818581 0%,
+      #7c807c 20%,
+      #727272 50%,
+      #5f5f5f 50%,
+      #6d6d6d 95%
+    );
+  height: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 8rem;
+  transform: translate(-50%, 0);
+  padding: 0 2rem;
+  border-radius: 0.3rem;
+}
+
+.navigation__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation__main li {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.8rem;
+}
+
+.navigation__main li:first-child {
+  padding-top: 0.1rem;
+}
+
+.navigation__main li:not(:last-child) {
+  border-right: 0.2px inset #5f5f5f;
+}
+
+.navigation__main li:not(:first-child) {
+  border-left: 0.2px solid #7c807c;
+}
+
+.navigation__main-link {
+  color: #eee;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.logo {
+  font-size: 2.2rem;
+}
+
+.navigation__main-search {
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+.navigation__main-input {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: inherit;
+  display: inline-block;
+  border-radius: 1rem;
+  background-image:
+    linear-gradient(
+      180deg,
+      #818581 0%,
+      #7c807c 20%,
+      #727272 50%,
+      #5f5f5f 50%
+    );
+  height: 2.5rem;
+  border: 1px solid #5f5f5f;
+  padding-left: 2.5rem;
+  width: 14rem;
+  transition: all 0.3s;
+}
+
+.navigation__main-input:focus {
+  outline: none;
+  width: 15rem;
+  border-bottom: 1px solid #eee;
+}
+
+.navigation__main-search .fa-search {
+  position: absolute;
+  left: 2rem;
+  top: 0.8rem;
+}
+
+.hero__text {
+  width: 80%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.heading-primary {
+  font-size: 6.5rem;
+  font-weight: 100;
+}
+
+.heading-secondary {
+  font-size: 3.4rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.grid-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+}
+
+.grid-image__item {
+  width: 100%;
+  height: 20rem;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.grid-image-1 {
+  background-image: url(images/iphone_5c.jpg);
+}
+
+.grid-image-2 {
+  background-image: url(images/iphone_5s.jpg);
+}
+
+.grid-image-3 {
+  background-image: url(images/mac_birthday.jpg);
+}
+
+.grid-image-4 {
+  background-image: url(images/supplier.jpg);
+}
+
+.footer {
+  padding: 3rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.footer__quicklinks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.footer__quicklinks--list {
+  display: inline-flex;
+}
+
+.footer__quicklinks--list li:not(:last-child) {
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.footer__links {
+  margin-left: 0.5rem;
+}
+
+.footer__links:last-child img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.link-color {
+  color: #08c;
+}
+
+@media (max-width: 990px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__quicklinks,
+  .footer__copyright {
+    display: block;
+    text-align: center;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 35%;
+  }
+
+  .grid-image {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-image__item {
+    height: 28rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 30%;
+  }
+
+  .grid-image {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-image__item {
+    height: 48rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}

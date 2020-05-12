@@ -1,11 +1,11 @@
 # APPLE'S WEBSITE WEBPAGE CLONE (2014)
 
-The goal of this project is to make a clone of an old version of the Apple website webpage (2014).
+The goal of the project was to make a clone of an old version of the Apple website webpage (2014).
 
-> This project helps me master the concept of using images as a background and adding gradints to elements.
-> I learned to sized and position the page using correct semantic HTML elements appropriately.
-> Correctly setting up navigation bar.
-> Played around with media queries to work a bit on the site responsiveness even though the origin isn't.
+> This project helped me master the concepts of using images as a background and adding gradients to elements.
+> I learned to size and position the page using correct semantic HTML elements appropriately.
+> Correctly setting up the navigation bar.
+> Played around with media queries to work a bit on the site responsiveness even though the original isn't.
 
 ![screenshot](./images/screenshot.jpg)
 
